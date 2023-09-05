@@ -18,7 +18,7 @@
   "FechaCreacion": {
     "$date": "2023-08-17T09:30:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
@@ -42,7 +42,7 @@
   "FechaCreacion": {
     "$date": "2023-08-15T12:00:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
@@ -66,7 +66,7 @@
   "FechaCreacion": {
     "$date": "2023-08-16T14:00:00.000Z"
   },
-  "Estado": 1,
+  "Estado": 0,
   "Pagada": true,
   "FechaPago": {
     "$date": "2023-08-17T10:30:00.000Z"
@@ -92,7 +92,7 @@
   "FechaCreacion": {
     "$date": "2023-08-18T11:45:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
@@ -116,7 +116,7 @@
   "FechaCreacion": {
     "$date": "2023-08-19T08:15:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
@@ -140,7 +140,7 @@
   "FechaCreacion": {
     "$date": "2023-08-15T12:00:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
@@ -164,7 +164,7 @@
   "FechaCreacion": {
     "$date": "2023-08-17T09:30:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
@@ -188,7 +188,7 @@
   "FechaCreacion": {
     "$date": "2023-08-17T09:30:00.000Z"
   },
-  "Estado": 2,
+  "Estado": 0,
   "Pagada": false,
   "FechaPago": null
 },
