@@ -1,0 +1,19 @@
+
+
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: rgb(164, 167, 169);
+   }
+
+.title{
+    padding: 30px;
+    background-color: #aed831;
+    text-align: center;
+    color: #fff;
+  }
+
+  .container {
+    margin: 10px 20%;
+  }

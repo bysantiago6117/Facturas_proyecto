@@ -1,0 +1,26 @@
+<div class="title"> <h1 class="titulo">Ver factura</h1></div>
+
+<div class="container">
+    <mat-card class="card">
+      
+       <mat-card-title><strong class="strong">codigo:</strong> {{factura.codigoFactura}}</mat-card-title>
+       <mat-card-content class="content" >
+          <p><strong class="strong">Nombre del cliente:</strong> {{factura.nombreCliente}}</p>
+          <p><strong class="strong">Ciudad:</strong> {{factura.ciudad}}</p>
+          <p><strong class="strong">Nit: </strong> {{factura.nit}}</p>
+          <p><strong class="strong">Total factura:</strong> {{factura.totalFactura}}</p>
+          <p><strong class="strong">Sub total:</strong> {{factura.subTotal}}</p>
+          <p><strong class="strong">Iva: </strong> {{factura.iva}}</p>
+          <p><strong class="strong">Retencion: </strong> {{factura.retencion}}</p>
+          <p><strong class="strong">Fecha de creacion: </strong> {{ factura.fechaCreacion | date: 'dd/MM/yyyy' }}</p>
+          <p><strong class="strong">Estado: </strong> {{_facturaServices.getEstadoTexto(factura.estado)}}</p>
+          <p><strong class="strong">Pagada: </strong> {{factura.pagada}}</p>
+          <p ><strong class="strong">Fecha de pago: </strong> {{factura.fechaPago? (factura.fechaPago | date: 'dd/MM/yyyy') : 'No hay pago'}}</p>
+       </mat-card-content >
+       <mat-card-actions >
+        <button *ngIf="factura.estado === 0 || factura.estado === 1 && !accesoDesdeCorreo" class="recordatorio" mat-raised-button (click)="enviarConfirmacion()">Mandar Recodatorio</button>
+        <button *ngIf="!accesoDesdeCorreo" mat-raised-button routerLink="/listaFacturas" style="color: #aed831;">Volver</button>
+        <button *ngIf="accesoDesdeCorreo" mat-raised-button (click)="onPagarclick()"  style="color: #aed831;">Pagar</button>
+      </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+  }
+
+  .search {
+    cursor: pointer;
+  }
+
+  .titulo{
+    font-size: 45px;
+  }
+
+  .columns{
+    color: #aed831 !important;
+  }

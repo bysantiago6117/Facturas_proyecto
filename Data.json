@@ -1,0 +1,266 @@
+[{
+  "_id": {
+    "$oid": "64f13105807f99782cb47bf0"
+  },
+  "CodigoFactura": "F003",
+  "Cliente": {
+    "Nombre": "Cliente3",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 3",
+    "Telefono": "555-123-4567"
+  },
+  "Ciudad": "Ciudad 3",
+  "Nit": "NIT-003",
+  "TotalFactura": "75",
+  "SubTotal": "60",
+  "Iva": "15",
+  "Retencion": "0",
+  "FechaCreacion": {
+    "$date": "2023-08-17T09:30:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f13105807f99782cb47bf1"
+  },
+  "CodigoFactura": "F001",
+  "Cliente": {
+    "Nombre": "Cliente1",
+    "CorreoElectronico": "cliente1@email.com",
+    "Direccion": "Dirección Cliente 1",
+    "Telefono": "123-456-7890"
+  },
+  "Ciudad": "Ciudad 1",
+  "Nit": "NIT-001",
+  "TotalFactura": "100",
+  "SubTotal": "80",
+  "Iva": "20",
+  "Retencion": "5",
+  "FechaCreacion": {
+    "$date": "2023-08-15T12:00:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f13105807f99782cb47bf2"
+  },
+  "CodigoFactura": "F002",
+  "Cliente": {
+    "Nombre": "Cliente2",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 2",
+    "Telefono": "987-654-3210"
+  },
+  "Ciudad": "Ciudad 2",
+  "Nit": "NIT-002",
+  "TotalFactura": "150",
+  "SubTotal": "120",
+  "Iva": "30",
+  "Retencion": "5",
+  "FechaCreacion": {
+    "$date": "2023-08-16T14:00:00.000Z"
+  },
+  "Estado": 1,
+  "Pagada": true,
+  "FechaPago": {
+    "$date": "2023-08-17T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f1316e807f99782cb47bf3"
+  },
+  "CodigoFactura": "F004",
+  "Cliente": {
+    "Nombre": "Cliente4",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 4",
+    "Telefono": "111-222-3333"
+  },
+  "Ciudad": "Ciudad 4",
+  "Nit": "NIT-004",
+  "TotalFactura": "200",
+  "SubTotal": "160",
+  "Iva": "40",
+  "Retencion": "10",
+  "FechaCreacion": {
+    "$date": "2023-08-18T11:45:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f1316e807f99782cb47bf4"
+  },
+  "CodigoFactura": "F005",
+  "Cliente": {
+    "Nombre": "Cliente5",
+    "CorreoElectronico": "cliente5@email.com",
+    "Direccion": "Dirección Cliente 5",
+    "Telefono": "999-888-7777"
+  },
+  "Ciudad": "Ciudad 5",
+  "Nit": "NIT-005",
+  "TotalFactura": "50",
+  "SubTotal": "40",
+  "Iva": "10",
+  "Retencion": "2.5",
+  "FechaCreacion": {
+    "$date": "2023-08-19T08:15:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f2977ede37783b4e575e86"
+  },
+  "CodigoFactura": "F010",
+  "Cliente": {
+    "Nombre": "Cliente 5",
+    "CorreoElectronico": "calichemanrique605@gmail.com",
+    "Direccion": "Dirección Cliente 1",
+    "Telefono": "123-456-7890"
+  },
+  "Ciudad": "Ciudad 1",
+  "Nit": "NIT-001",
+  "TotalFactura": "100",
+  "SubTotal": "80",
+  "Iva": "20",
+  "Retencion": "5",
+  "FechaCreacion": {
+    "$date": "2023-08-15T12:00:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f397503c4cb2349df2c75b"
+  },
+  "CodigoFactura": "F009",
+  "Cliente": {
+    "Nombre": "Luis",
+    "CorreoElectronico": "luisgarcia9908@gmail.com",
+    "Direccion": "Dirección Cliente 3",
+    "Telefono": "555-123-4567"
+  },
+  "Ciudad": "Ciudad 3",
+  "Nit": "NIT-003",
+  "TotalFactura": "75",
+  "SubTotal": "60",
+  "Iva": "15",
+  "Retencion": "0",
+  "FechaCreacion": {
+    "$date": "2023-08-17T09:30:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f60eea7417157478468d30"
+  },
+  "CodigoFactura": "F011",
+  "Cliente": {
+    "Nombre": "Santiago",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 3",
+    "Telefono": "555-123-4567"
+  },
+  "Ciudad": "Ciudad 11",
+  "Nit": "NIT-0013",
+  "TotalFactura": "715",
+  "SubTotal": "60",
+  "Iva": "15",
+  "Retencion": "0",
+  "FechaCreacion": {
+    "$date": "2023-08-17T09:30:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f61ca2d425ad2ba11313d0"
+  },
+  "CodigoFactura": "F006",
+  "Cliente": {
+    "Nombre": "Santiago",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 3",
+    "Telefono": "555-123-4567"
+  },
+  "Ciudad": "Ciudad 6",
+  "Nit": "NIT-0013",
+  "TotalFactura": "715",
+  "SubTotal": "60",
+  "Iva": "15",
+  "Retencion": "0",
+  "FechaCreacion": {
+    "$date": "2023-08-17T09:30:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f61cacd425ad2ba11313d1"
+  },
+  "CodigoFactura": "F007",
+  "Cliente": {
+    "Nombre": "Santiago",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 3",
+    "Telefono": "555-123-4567"
+  },
+  "Ciudad": "Ciudad 7",
+  "Nit": "NIT-00123",
+  "TotalFactura": "715",
+  "SubTotal": "60",
+  "Iva": "15",
+  "Retencion": "0",
+  "FechaCreacion": {
+    "$date": "2023-08-17T09:30:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+},
+{
+  "_id": {
+    "$oid": "64f61cbdd425ad2ba11313d2"
+  },
+  "CodigoFactura": "F008",
+  "Cliente": {
+    "Nombre": "Santiago",
+    "CorreoElectronico": "zersen61@gmail.com",
+    "Direccion": "Dirección Cliente 3",
+    "Telefono": "555-123-4567"
+  },
+  "Ciudad": "Ciudad 7",
+  "Nit": "NIT-00123",
+  "TotalFactura": "715",
+  "SubTotal": "60",
+  "Iva": "15",
+  "Retencion": "0",
+  "FechaCreacion": {
+    "$date": "2023-08-17T09:30:00.000Z"
+  },
+  "Estado": 2,
+  "Pagada": false,
+  "FechaPago": null
+}]
